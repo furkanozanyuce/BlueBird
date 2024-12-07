@@ -10,8 +10,8 @@ export default function PageLayout({ children }) {
       <div className="sticky top-0 bg-white dark:bg-slate-400 shadow-md">
         <header className="container mx-auto p-6 flex justify-between">
           <h1 className="text-lg font-bold flex gap-2 ">
-            <Origami />
-            TIWIKKIR
+            <Origami color="blue" />
+            BlueBird
           </h1>
 
           {userInfo.name ? (
